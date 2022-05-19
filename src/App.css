@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.feedbackContainer {
+  position: fixed;
+  bottom: 10px;
+  right: 4px;
+}
+
+.feedbackBtn {
+  width: 55px;
+  height: 40px;
+  color: var(--tyOrange);
+}

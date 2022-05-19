@@ -1,0 +1,16 @@
+export * from './modalTypes';
+
+// Feedback Constants
+export const SEND_FEEDBACK_REQUEST = 'SEND_FEEDBACK_REQUEST';
+export const SEND_FEEDBACK_SUCCESS = 'SEND_FEEDBACK_SUCCESS';
+export const SEND_FEEDBACK_FAILURE = 'SEND_FEEDBACK_FAILURE';
+
+
+export const GET_FEEDBACK_REQUEST = 'GET_FEEDBACK_REQUEST';
+export const GET_FEEDBACK_SUCCESS = 'GET_FEEDBACK_SUCCESS';
+export const GET_FEEDBACK_FAILURE = 'GET_FEEDBACK_FAILURE';
+
+// Modal Constans
+export const OPEN_MODAL = 'OPEN_MODAL';
+export const CLOSE_MODAL = 'CLOSE_MODAL';
+
