@@ -24,7 +24,6 @@ const Feedback = () => {
   };
 
   const onSendFeedback = (text) => {
-      debugger;
     dispatch(sendFeedBacks(text));
     closeStatusModal();
   };
