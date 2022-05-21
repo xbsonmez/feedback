@@ -5,7 +5,7 @@
   - Express v4.*.*
   - Mongoose v6.*.*
 
-# Online Demos
+# Online Demo
 
 - FE URL => https://xbsonmez.github.io/feedback/
 - BE URL => https://feedbackybe.herokuapp.com/
