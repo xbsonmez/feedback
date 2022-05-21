@@ -6,7 +6,7 @@ const Message = (prop) => {
 
   const [text, setText] = useState('');
 
-  const { onSend } =prop;
+  const { onSend } = prop;
   const onTextChange = (e) =>{
     setText(e);
   };
@@ -17,8 +17,19 @@ const Message = (prop) => {
 
   return (
     <div className={s.message}>
-         <textarea className={s.textAreaModal} maxLength="2000"  onChange={(e)=>{onTextChange(e.target.value)}}/>
-          <button  className={s.sendBtn} onClick={(e)=>{onSendText()}}>Gönder</button>
+         <textarea 
+          data-testid="text-area"
+          className={s.textAreaModal} 
+          maxLength="2000"
+          placeholder="Write Your Feedback"
+          onChange={(e)=>{onTextChange(e.target.value)}}
+         />
+          <button 
+          aria-label='onSend' 
+          className={s.sendBtn} 
+          onClick={()=>{onSendText()}}>
+            Gönder
+          </button>
     </div>
   );
 }

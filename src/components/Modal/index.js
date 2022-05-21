@@ -4,22 +4,23 @@ import PropTypes from 'prop-types';
 import {CloseOutlined } from '@ant-design/icons';
 import s from './Modal.module.css';
 
-ReactModal.setAppElement('#root');
+if (process.env.NODE_ENV !== 'test') ReactModal.setAppElement('#root');
 
 const Modal = (props) => {
     const {children, isOpen, onClose, title, type} = props;
 
     return (
-      <div>
+      <div data-testid="modal">
         <ReactModal
         isOpen={ isOpen }
         onRequestClose={ onClose }
         contentLabel="Modal"
+        ariaHideApp={false}
         className={type ==='error' ? s.modalError : s.modal}
       >
-       <button  className={s.closeBtn} onClick={ onClose }> <CloseOutlined /> </button>
+       <button aria-label='close' className={s.closeBtn} onClick={ onClose } > <CloseOutlined /> </button>
         <div className={s.children}>
-          <div className={s.title}>
+          <div data-testid="title" className={s.title}>
               {title}
           </div>
           { children }
