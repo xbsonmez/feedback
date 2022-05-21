@@ -4,6 +4,13 @@
   - React version v18.*.*
   - Express v4.*.*
   - Mongoose v6.*.*
+
+
+# How to run 
+
+  - npm install
+  - yarn start and npm run start
+  - yarn test  => to show test coverage
   
 
 # Feedback Application 
@@ -14,6 +21,7 @@
 - it send POST request to create feedback.
 - You can see the list of feedbacks [feedback list](https://feedbackybe.herokuapp.com/).  
 - That application was deployed on [feedback](https://xbsonmez.github.io/feedback/).   
+  
 
 
 - Components (Modal and Message),
@@ -31,8 +39,8 @@
 # Easily Integrable
 
  - When you run "yarn build"  it created chunks under of build/static/js and build/static/css.
- - you can import these chunks and css your own projext and started to use this project on your application.
- - for example you can use like this. [feedbackApp](https://github.com/xbsonmez/feedback/tree/master/dist).
+ - You can import these chunks and css your own projext and started to use this project on your application.
+ - For example you can use like this. [feedbackApp](https://github.com/xbsonmez/feedback/tree/master/dist).
 
 # Feedback BE  REST API 
 
@@ -43,7 +51,7 @@ You see this application when click [rest-api](https://github.com/xbsonmez/feedb
 - I deployed on Heroku.
 
 
-- You can run npm run start.
+- You can run with npm run start.
 - GET  http://localhost:5000/feedbacks  or https://feedbackybe.herokuapp.com/feedbacks 
 - POST http://localhost:5000/feedbacks  or https://feedbackybe.herokuapp.com/feedbacks 
 - DELETE http://localhost:5000/feedbacks/:id or https://feedbackybe.herokuapp.com/feedbacks/:id
