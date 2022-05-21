@@ -31,9 +31,10 @@
 - Lists & Keys
 - Redux -thunk
 - HTTP Requests with axios 
-- jest and react-testing-library
+- Jest and react-testing-library
 - ReactModal
-- antd icons
+- Antd icons
+- Responsive Design
 
 
 # Easily Integrable
