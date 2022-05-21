@@ -6,7 +6,7 @@
   - Mongoose v6.*.*
   
 
-# FeedBack Application 
+# Feedback Application 
 
 - It allows users to add new feedbacks. It uses my feedbackBE backend application [feedbackBE](https://github.com/xbsonmez/feedbackyBE).
 - There was an icon on the bottom-right side, when click it, it opens feedback modal.
