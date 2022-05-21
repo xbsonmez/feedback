@@ -17,8 +17,8 @@
 
 - It allows users to add new feedbacks. It uses my feedbackBE backend application [feedbackBE](https://github.com/xbsonmez/feedbackyBE).
 - There was an icon on the bottom-right side, when click it, it opens feedback modal.
-- When the response was succesful you can see the succes modal and the response was fail, you can see failure modal.
-- it send POST request to create feedback.
+- You can see the success modal and failure modal, according to response situation.
+- It send POST request to create feedback.
 - You can see the list of feedbacks [feedback list](https://feedbackybe.herokuapp.com/).  
 - That application was deployed on [feedback](https://xbsonmez.github.io/feedback/).   
   
@@ -38,7 +38,7 @@
 
 # Easily Integrable
 
- - When you run "yarn build"  it created chunks under of build/static/js and build/static/css.
+ - You should run "yarn build"  it created chunks under of build/static/js and build/static/css.
  - You can import these chunks and css your own projext and started to use this project on your application.
  - For example you can use like this. [feedbackApp](https://github.com/xbsonmez/feedback/tree/master/dist).
 
