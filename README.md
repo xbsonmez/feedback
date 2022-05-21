@@ -10,6 +10,9 @@
 - FE URL => https://xbsonmez.github.io/feedback/
 - BE URL => https://feedbackybe.herokuapp.com/
 
+<img width="1590" alt="image" src="https://user-images.githubusercontent.com/42543196/169666304-16d34fc0-d246-4073-9415-99cfc4c03340.png">
+
+
 # How to run 
 
   - 'npm install'
