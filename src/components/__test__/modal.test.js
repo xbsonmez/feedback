@@ -13,15 +13,10 @@ describe('Modal Component Test With React Testing Library', () => {
     title: "test title",
     isOpen:true
   };
-
-    it("render without crash", () =>{
-        const div = document.createElement("div");
-        render(<Modal { ...initialProps }/>, div);
-    });
-
+  
     it('Should Take A Snapshot', () => {
       const { asFragment } = render(<Modal { ...initialProps }/>)
-      expect(asFragment(<Modal { ...initialProps }/>)).toMatchSnapshot()
+      expect(asFragment(<Modal { ...initialProps }/>)).toMatchSnapshot();
      });
      
      it('Click Close Event', () => {

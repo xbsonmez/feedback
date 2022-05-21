@@ -16,10 +16,6 @@ describe('Message Component Test', () => {
       expect(asFragment(<Message { ...initialProps }/>)).toMatchSnapshot()
     
     });
-    it("render without crash", () =>{
-        const div = document.createElement("div");
-        render(<Message {...initialProps}/>, div);
-    });
 
     it("onSend Click Test", () =>{
         const handleClick = jest.fn();

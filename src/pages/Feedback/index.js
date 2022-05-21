@@ -58,6 +58,7 @@ const Feedback = () => {
     if (isModalOpen(FEEDBACK_FAILURE_MODAL)) {
         setShowFailureModal(true);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [modalData]);
 
 
