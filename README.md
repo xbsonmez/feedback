@@ -1,17 +1,15 @@
 #FeedBack Application 
 
-It allows users to add, update and delete feedback.It uses my feedbacky backend application [GitHub Pages](https://pages.github.com/). 
+It allows users to add feedback. It uses my feedbackBE backend application [feedbackBE](https://github.com/xbsonmez/feedbackyBE). 
 
-This project goes over all of the fundamentals of React including...
 
 Components
-JSX
 Props (proptypes, defaultprops, etc)
 State (Component & App Level)
-Styling
-Handling Events
+CSS Modules
 Lists & Keys
-Forms
-Context API
-HTTP Requests
+Redux-thunk
+HTTP Requests with axios 
+jest and react-testing-library
+ReactModal
 
