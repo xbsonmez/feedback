@@ -5,6 +5,10 @@
   - Express v4.*.*
   - Mongoose v6.*.*
 
+# Online Demos
+
+- FE URL => https://xbsonmez.github.io/feedback/
+- BE URL => https://feedbackybe.herokuapp.com/
 
 # How to run 
 
@@ -21,9 +25,6 @@
 - It send POST request to create feedback.
 - You can see the list of feedbacks [feedback list](https://feedbackybe.herokuapp.com/).  
 - That application was deployed on [feedback](https://xbsonmez.github.io/feedback/).   
-
-FE URL => https://xbsonmez.github.io/feedback/
-BE URL => https://feedbackybe.herokuapp.com/
   
 
 
