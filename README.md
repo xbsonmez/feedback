@@ -8,9 +8,9 @@
 
 # How to run 
 
-  - npm install
-  - yarn start and npm run start
-  - yarn test  => to show test coverage
+  - 'npm install'
+  - 'yarn start' and 'npm run start'
+  - 'yarn test' : to show test coverage
   
 
 # Feedback Application 
@@ -38,7 +38,7 @@
 
 # Easily Integrable
 
- - You should run "yarn build"  it created chunks under of build/static/js and build/static/css.
+ - You should run 'yarn build'  it created chunks under of build/static/js and build/static/css.
  - You can import these chunks and css your own projext and started to use this project on your application.
  - For example you can use like this. [feedbackApp](https://github.com/xbsonmez/feedback/tree/master/dist).
 
@@ -56,7 +56,7 @@ You can see this application when click [rest-api](https://github.com/xbsonmez/f
 - POST http://localhost:5000/feedbacks  or https://feedbackybe.herokuapp.com/feedbacks 
 - DELETE http://localhost:5000/feedbacks/:id or https://feedbackybe.herokuapp.com/feedbacks/:id
 
-You can try api :
+You can try api:
 
 POST => https://feedbackybe.herokuapp.com/feedbacks 
 
