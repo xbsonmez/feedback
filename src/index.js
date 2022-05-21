@@ -10,7 +10,7 @@ import appReducer from './store/reducers';
 
  const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('feedbackty'));
  const store = createStore(appReducer, composeEnhancers(
   applyMiddleware(thunk),
   ));
