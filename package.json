@@ -2,7 +2,7 @@
   "name": "feedback",
   "version": "1.0.1",
   "private": true,
-  "homepage": "https://xbsonmez.github.io/feedback",
+  "homepage": "https://xbsonmez.github.io/feedback/",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@testing-library/jest-dom": "^5.16.4",
