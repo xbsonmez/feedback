@@ -44,7 +44,7 @@
 
 # Feedback BE  REST API 
 
-You see this application when click [rest-api](https://github.com/xbsonmez/feedbackyBE). 
+You can see this application when click [rest-api](https://github.com/xbsonmez/feedbackyBE). 
 
 - I used node.js and express js for the create rest api.
 - I used Mongo DB. 
