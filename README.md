@@ -22,7 +22,7 @@
 $ git clone https://github.com/xbsonmez/feedback.git
 ```
 
-# How to run 
+# How to run FE and BE
 
 ```bash
 # install package
@@ -31,6 +31,7 @@ $ npm install
 $ yarn start
 $ npm run start
 ```
+
 
  # Testing
 
@@ -47,7 +48,7 @@ $ yarn test
 - You can see the success modal and failure modal, according to response situation.
 - It send POST request to create feedback.
 - You can see the list of feedbacks [feedback list](https://feedbackybe.herokuapp.com/).  
-- That application was deployed on [feedback](https://xbsonmez.github.io/feedback/).   
+- That application was also deployed [feedback](https://xbsonmez.github.io/feedback/).   
   
 
 
@@ -76,7 +77,7 @@ You can see this application when click [rest-api](https://github.com/xbsonmez/f
 
 - I used node.js and express js for the create rest api.
 - I used Mongo DB. 
-- I deployed on Heroku.
+- I also deployed Heroku.
 
 
 - You can run with npm run start.
