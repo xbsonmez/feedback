@@ -12,6 +12,9 @@
 
 <img width="333" alt="image" src="https://user-images.githubusercontent.com/42543196/169666324-7c19b3d2-9b53-4616-902c-aa1a2046496c.png">
 
+# Repo
+- FE : https://github.com/xbsonmez/feedback
+- BE : https://github.com/xbsonmez/feedbackyBE
 
 # Git Clone
 
