@@ -20,6 +20,7 @@
 
 ```bash
 $ git clone https://github.com/xbsonmez/feedback.git
+$ git clone https://github.com/xbsonmez/feedbackyBE.git
 ```
 
 # How to run FE and BE
