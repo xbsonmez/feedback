@@ -13,6 +13,8 @@ import errorMessage from './errorMessage';
 import { openModal } from './modalActions';
   import { FEEDBACK_FAILURE_MODAL, FEEDBACK_SUCCES_MODAL } from '../constants';
 
+const URL = 'https://feedbackybe.herokuapp.com/feedbacks';
+
 export const sendFeedBacks = (text) => async dispatch => {
   try {
     dispatch({
@@ -24,7 +26,7 @@ export const sendFeedBacks = (text) => async dispatch => {
         "feedbacks": text
     };
 
-    const res = await axios.post('https://feedbackybe.herokuapp.com/feedbacks', requestData
+    const res = await axios.post(URL, requestData
     );
 
     dispatch({
@@ -44,13 +46,13 @@ export const sendFeedBacks = (text) => async dispatch => {
 };
 
 
-export const getFeedBacks = () => async dispatch => {
+export const getFeedbacks = () => async dispatch => {
     try {
       dispatch({
         type: GET_FEEDBACK_REQUEST
       });
 
-      const res = await axios.get('https://feedbackybe.herokuapp.com/feedbacks');
+      const res = await axios.get(URL);
   
       dispatch({
         type: GET_FEEDBACK_SUCCESS,
