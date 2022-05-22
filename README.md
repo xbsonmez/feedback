@@ -13,11 +13,28 @@
 <img width="333" alt="image" src="https://user-images.githubusercontent.com/42543196/169666324-7c19b3d2-9b53-4616-902c-aa1a2046496c.png">
 
 
+# Git Clone
+
+```bash
+$ git clone https://github.com/xbsonmez/feedback.git
+```
+
 # How to run 
 
-  - 'npm install'
-  - 'yarn start' or 'npm run start'
-  - 'yarn test' : to show test coverage
+```bash
+# install package
+$ npm install  
+# start app
+$ yarn start
+$ npm run start
+```
+
+ # Testing
+
+```bash
+# test with coverage report
+$ yarn test   
+```
   
 
 # Feedback Application 
