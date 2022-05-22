@@ -16,7 +16,7 @@
 # How to run 
 
   - 'npm install'
-  - 'yarn start' and 'npm run start'
+  - 'yarn start' or 'npm run start'
   - 'yarn test' : to show test coverage
   
 
